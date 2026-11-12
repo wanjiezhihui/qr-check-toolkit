@@ -1,0 +1,30 @@
+# ---- 构建产物（源码可重建，不入库）----
+build/
+dist/
+dist_portable/
+dist*/
+*.spec
+QRCheck.exe
+QRCheck-portable/
+
+# ---- 运行时数据（含真实扫码记录，绝不入库）----
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.zip
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
